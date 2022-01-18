@@ -54,12 +54,12 @@ seq $start $end >> $file
 elif [ $ch == 2 ]
 then
 echo -e "\e[1;33m"
-read -p "How Many Latters To Begain |" num1
+read -p "How Many Latters |" num1
 echo -e "\e[1;33m"
 read -p "Enter Path File : " file2
 crunch $num1 $num1 >> $file2
 clear
 fi
-
-
-
+#--------------
+#end Code ... |
+#--------------
